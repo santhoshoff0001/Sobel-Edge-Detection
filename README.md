@@ -24,7 +24,7 @@ This repository contains an RTL implementation of the Sobel Edge Detection algor
 
 2. Convert the input image to hexadecimal format:
    ```bash
-   python3 image_to_hex.py 3.png
+   python3 image_to_hex.py input.png
    ```
 
 3. Compile the Verilog files:
@@ -37,8 +37,7 @@ This repository contains an RTL implementation of the Sobel Edge Detection algor
    vvp sobel_sim
    ```
 
-5. Convert the hex output back to a viewable image:
+5. Convert the hex output back to a viewable image (this will generate/overwrite `output.png`):
    ```bash
    python3 hex_to_image.py
-   mv output.png edge_detected_output.png
    ```
