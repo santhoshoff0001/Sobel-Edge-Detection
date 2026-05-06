@@ -1,0 +1,5 @@
+# Ignore compiled simulation binaries
+sobel_sim
+
+# Ignore generated hex files
+*.hex

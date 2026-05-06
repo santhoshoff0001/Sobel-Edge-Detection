@@ -1,0 +1,5 @@
+IO_LOC "clk" 52;
+IO_PORT "clk" IO_TYPE=LVCMOS33;
+
+IO_LOC "tx" 27;
+IO_PORT "tx" IO_TYPE=LVCMOS33;
